@@ -1,5 +1,9 @@
 # Bot Telegram
 
+![Sousa](https://img.shields.io/static/v1?label=Sousa&message=Telegram%20Bot&style=flat&color=E59500&labelColor=green)
+![License](https://img.shields.io/github/license/Carmo-sousa/telegram-bot)
+![Issues](https://img.shields.io/github/issues/Carmo-sousa/telegram-bot)
+
 ![Banner](assets/banner.svg)
 
 Bot que gerência os seus usuários.
