@@ -27,6 +27,29 @@ Esse projeto não foi bem planejado então não sei mais o que escrever aqui. Co
   - [ ] `/delete`
   - [ ] `/cancel`
 
+## Setup
+
+--------
+
+1. Ter o [python 3.6](https://www.python.org/) ou superior.
+2. Criar o arquivo `.env` na raiz do projeto com
+
+  ```env
+  TOKEN=<Trocar pelo token do seu bot>
+  SPREADSHEET_ID=<Trocar pelo ID da sua planilha>
+  RANGE_NAME = "nome_da_aba_da_planilha!Célula:Célula" # Ex: Exemplo!A1:B1
+  ```
+
+  > *O token você pode pegar com [BotFather](https://t.me/botfather) criando um novo bot.*
+  > *O ID da planilha fica na URL dela*
+> ![URL ID](assets/url_id.png)
+
+3. Instalar as dependências do projeto com `pip install -r requirements.txt`
+
+> *Se tiver o poetry configurado basta executar `poetry install`*.
+
+4. Por fim rodar a aplicação com `python -m telegram-bot`.
+
 ## Contribuir
 
 Quer contribuir com o projeto? [Confira o passo a passo](./CONTRIBUTING.md)
