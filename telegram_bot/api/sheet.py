@@ -1,4 +1,3 @@
-from __future__ import print_function
 import pickle
 import os.path
 
@@ -7,7 +6,6 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from telegram_bot.config import Config
 
-from pprint import pprint
 
 from telegram_bot.config import Config
 
@@ -18,8 +16,6 @@ config = Config()
 SAMPLE_SPREADSHEET_ID = config.SAMPLE_SPREADSHEET_ID
 SAMPLE_RANGE_NAME = config.SAMPLE_RANGE_NAME
 
-
-config = Config()
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = config.SCOPES
