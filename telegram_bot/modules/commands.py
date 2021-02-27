@@ -24,7 +24,7 @@ Bem vindo ao seu gerenciador de usuário e senha!
 def start(update: Update, context: CallbackContext):
     user = update.message.from_user
     text = (
-        f"Seu ID: {user.id}"
+        f"Seu ID: {user.id}\n"
         "Bem vindo ao seu gerenciador de usuários pessoal!\n"
         "Para adicionar um novo usuário e senha digite /new.\n"
         "Para mais informações digite /help"
