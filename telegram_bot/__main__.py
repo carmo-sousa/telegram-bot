@@ -32,13 +32,13 @@ def main():
 
     updater.bot.set_my_commands(commands)
 
-    updater.start_webhook(
-        listen="0.0.0.0",
-        port=config.PORT,
-        url_path=config.TOKEN
-    )
+    # updater.start_webhook(
+    #     listen="0.0.0.0",
+    #     port=config.PORT,
+    #     url_path=config.TOKEN
+    # )
 
-    # updater.bot.set_webhook()
+    # updater.bot.set_webhook("https://hidden-tundra-01728.herokuapp.com/" + config.TOKEN)
 
     updater.start_polling()
     updater.idle()
