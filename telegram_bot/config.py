@@ -24,4 +24,5 @@ class Config:
     # Token do bot do telegram
     # https://t.me/botfather
     TOKEN = os.getenv("TOKEN")
+    PORT = os.getenv("PORT")
     pass

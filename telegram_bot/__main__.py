@@ -31,6 +31,15 @@ def main():
     dispatcher.add_handler(conv_handler)
 
     updater.bot.set_my_commands(commands)
+
+    updater.start_webhook(
+        listen="0.0.0.0",
+        port=config.PORT,
+        url_path=config.TOKEN
+    )
+
+    # updater.bot.set_webhook()
+
     updater.start_polling()
     updater.idle()
 
